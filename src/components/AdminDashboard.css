@@ -1,0 +1,62 @@
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .reservations-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .reservation-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .reservation-card h3 {
+    margin-top: 0;
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .status.accepted {
+    color: green;
+  }
+  
+  .status.declined {
+    color: red;
+  }
+  
+  .reservation-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .accept-button,
+  .decline-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .accept-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .accept-button:hover {
+    background-color: #45a049;
+  }
+  
+  .decline-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .decline-button:hover {
+    background-color: #da190b;
+  }
+  
